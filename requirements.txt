@@ -1,0 +1,22 @@
+# EventPilot - Python dependencies (Python 3.10+, 3.11 or 3.12 recommended)
+# Tip: after installing, run `pip freeze > requirements.lock.txt` to record exact versions.
+
+fastapi
+uvicorn[standard]
+python-dotenv
+
+# RAG
+chromadb
+sentence-transformers
+
+# Reading club documents
+pypdf
+python-docx
+
+# Testing
+pytest
+
+# Added in Week 2 (LLM providers) - install when you pick one:
+#   google-generativeai   (Gemini)
+#   groq                  (Groq)
+#   ollama                (local models)

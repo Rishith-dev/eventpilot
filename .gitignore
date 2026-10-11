@@ -1,0 +1,27 @@
+# Secrets
+.env
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Vector database (rebuilt by the ingest script)
+data/chroma/
+
+# Your real club documents stay on YOUR laptop only.
+# Only the synthetic sample_* files are committed to the public repo.
+data/raw/*
+!data/raw/sample_*
+
+# Frontend
+node_modules/
+dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
